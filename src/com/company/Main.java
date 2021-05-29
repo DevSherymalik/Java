@@ -36,8 +36,7 @@ public class Main {
 
             for (int i = 0; i < jsonarray.length(); i++) {
                 JSONObject jsonobject = jsonarray.getJSONObject(0);
-
-             //   System.out.println(jsonobject);
+                System.out.println(jsonobject);
 
                 Integer name = jsonobject.getInt("dt");
                 String url = jsonobject.getString("rain");
